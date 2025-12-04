@@ -1,0 +1,4 @@
+vpc_id = "vpc-xxxxxxxx"
+public_subnet_ids = ["subnet-aaaaaaa","subnet-bbbbbbb"]
+private_subnet_ids = ["subnet-ccccc","subnet-ddddd"]
+key_name = "your-key-if-any"
