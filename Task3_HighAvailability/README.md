@@ -15,4 +15,3 @@ The ALB receives public traffic and routes it to private EC2 instances, ensuring
 ## Terraform
 See `main.tf`. Pass vpc_id, public_subnet_ids (list), private_subnet_ids (list), and optional key_name.
 
-
