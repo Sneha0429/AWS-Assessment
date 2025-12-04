@@ -8,9 +8,7 @@ Static assets are offloaded to S3 and served via CloudFront for lower latency an
 CloudWatch, health checks, and auto-scaling policies ensure observability and automatic scaling to handle 10,000 concurrent users.
 
 ## Diagram files
-- `diagram.drawio` (editable draw.io file)
 - `diagram.png` (exported image)
-- `diagram.pdf` (optional)
 
 ## Notes
 - Key scaling components: ALB, ASG, RDS reader replicas, ElastiCache caching, CloudFront for CDN.
